@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.css">
+
+	<link rel="stylesheet" href="./src/css/app.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	
+	<title>Document</title>
+</head>
+<body class="mb40">
+
+	<h1 class="sr-only">
+		Welcome to Srijon Tech
+	</h1>
+
+	<header class="bg-light">
+		<div class="container p-0">
+			<nav class="navbar navbar-expand-lg navbar-light">
+
+				<a class="navbar-brand" href="#">
+					<img class="logo" src="./src/images/logo.png" alt="">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+				 aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"> -->
+					<ul class="navbar-navx nav nav-pills nav-fill m-auto mt-2 mt-lg-0" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects"
+							 aria-selected="true">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-dashboard-tab" data-toggle="pill" href="#pills-dashboard" role="tab" aria-controls="pills-dashboard"
+							 aria-selected="false">Dashboard</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-pds-tab" data-toggle="pill" href="#pills-pds" role="tab" aria-controls="pills-pds"
+							 aria-selected="false">PDS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-das-tab" data-toggle="pill" href="#pills-das" role="tab" aria-controls="pills-das"
+							 aria-selected="false">Disputes &amp; After Sales</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-messenger-tab" data-toggle="pill" href="#pills-messenger" role="tab" aria-controls="pills-messenger"
+							 aria-selected="false">Messenger</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						 aria-expanded="false">
+							Profile
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">My Profile</a>
+							<a class="dropdown-item" href="#">Settings</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Log Out</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container mt-40">
+		<div class="row">
+			<div class="col-12">
+				<div class="tab-content" id="pills-tabContent">
+
+					<div class="tab-pane fade show active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+						<h2 class="table-caption bg-success text-center">Projects</h2>
+						<div class="table-responsive">
+							<table id="projects_table" class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th>Sl</th>
+										<th>Feeds</th>
+										<th>Known</th>
+										<th>Applied</th>
+										<th>Negotiation</th>
+										<th>Declined</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="pills-dashboard" role="tabpanel" aria-labelledby="pills-dashboard-tab">
+						<h2 class="table-caption bg-success text-center">Dashboard</h2>
+						<div class="table-responsive">
+							<table id="dashboard_table" class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th>Sl</th>
+										<th>Project Status</th>
+										<th>Project Completion</th>
+										<th>Review &amp; Rating</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="pills-pds" role="tabpanel" aria-labelledby="pills-pds-tab">
+						<h2 class="table-caption bg-success text-center">PDS</h2>
+						<div class="table-responsive">
+							<table id="pds_table" class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th>Sl</th>
+										<th>Project Status</th>
+										<th>Project Completion</th>
+										<th>Review &amp; Rating</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="pills-das" role="tabpanel" aria-labelledby="pills-das-tab">
+						<h2 class="table-caption bg-success text-center">Disputes &amp; After Sales</h2>
+						<div class="table-responsive">
+							<table id="das_table" class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th>Sl</th>
+										<th>Project Status</th>
+										<th>Project Completion</th>
+										<th>Review &amp; Rating</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="pills-messenger" role="tabpanel" aria-labelledby="pills-messenger-tab">
+						<h2 class="table-caption bg-success text-center">Messenger</h2>
+						<div class="table-responsive">
+							<table id="messenger_table" class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th>Sl</th>
+										<th>Project Status</th>
+										<th>Project Completion</th>
+										<th>Review &amp; Rating</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Sample</td>
+										<td>Sample</td>
+										<td>Sample</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer class="bg-success footer footer-short">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					SrijonTech &copy;2019. All rights reserved.
+				</div>
+				<div class="col-4">
+				</div>
+				<div class="col-4">
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#projects_table').DataTable();
+			$('#dashboard_table').DataTable();
+			$('#pds_table').DataTable();
+			$('#das_table').DataTable();
+			$('#messenger_table').DataTable();
+		});
+	</script>
+</body>
+</html>

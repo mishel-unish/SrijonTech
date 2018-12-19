@@ -217,3 +217,39 @@ html {
 #signInModal .accordion-header:focus {
 	box-shadow: none;
 }
+
+
+
+
+/*********************************************/
+/*************DASHBOARD STYLES****************/
+/*********************************************/
+.footer-short {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 12px;
+	height: 40px;
+	padding: 10px 0;
+}
+
+.mb40 {
+	margin-bottom: 40px !important;
+}
+
+.logo {
+	width: 100px;
+}
+
+.table-caption {
+	caption-side: top;
+	padding: 12px 10px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
